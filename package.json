@@ -2,7 +2,7 @@
   "name": "@skan-io/babel-config-nodejs",
   "private": false,
   "version": "0.0.0-semantically-released",
-  "description": "A babel config for @babel compiled node 10 cli applications",
+  "description": "A babel config for @babel compiled node 10 applications",
   "main": "index.js",
   "scripts": {
     "default": "run clean test",
@@ -33,9 +33,6 @@
     "url": "https://github.com/skan-io/babel-config-nodejs/issues"
   },
   "homepage": "https://github.com/skan-io/babel-config-nodejs#readme",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
@@ -68,5 +65,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
