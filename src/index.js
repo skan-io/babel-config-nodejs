@@ -3,6 +3,7 @@ module.exports = {
   plugins: [
     // Makes sure babel does not include the same code snipped in each file,
     // but imports helpers from a single module.
+    'dynamic-import-node',
     '@babel/plugin-syntax-dynamic-import',
     '@babel/plugin-proposal-class-properties',
     '@babel/plugin-proposal-numeric-separator',
